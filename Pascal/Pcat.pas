@@ -1,6 +1,6 @@
 program Pcat;
 {
-  Based on the cat command in all (most) Linux operating systems.
+  Based on the cat command in all (from/with coreutils) Linux operating systems.
   Currently no special features like piping or concatenation
   This program uses all RTL (run time library) functions
   A better version could directly use the WinAPI
