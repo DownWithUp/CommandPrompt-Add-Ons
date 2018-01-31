@@ -53,7 +53,7 @@ start:
                 invoke printf, szTick, eax
                 invoke printf, szW6 ;Logo line 6
                 nop
-                invoke RtlGetConsoleSessionForegroundProcessId ;Rarely Used API, but super cool
+                invoke RtlGetConsoleSessionForegroundProcessId ;Awesome API, but rarely used.
                 invoke printf, szGetCMDId, eax
                 invoke printf, szW7
                 ;invoke Sleep, 10000 ;DEBUG ONLY
